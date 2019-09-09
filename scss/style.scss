@@ -1,0 +1,24 @@
+/*!
+Theme Name: Adams Elementary School
+Template: csdschools
+Theme URI: https://abidewebdesign.com
+Author: Abide Web Design
+Author URI: https://abidewebdesign.com
+Description: The official theme for Adams Elementary School
+Version: 1.0
+*/
+
+// Theme colors
+$header-top-global-bg:		#1D3820 !default;
+$header-top-global-color:	#ffffff !default;
+$header-global-bg:			#ffffff !default;
+$header-global-color:		#1D3820 !default;
+$brand-primary:         	#1D3820 !default; 
+$brand-secondary:			#74A741 !default;
+$brand-success:         	#5cb85c !default;
+$brand-info:            	#5bc0de !default;
+$brand-warning:         	#f0ad4e !default;
+$brand-danger:          	#d9534f !default;
+$header-color:				#ffffff !default;
+
+@import "school-colors";  
