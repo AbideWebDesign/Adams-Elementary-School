@@ -6,9 +6,9 @@
  */
 require WP_CONTENT_DIR . '/plugins/plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/AbideWebDesign/Adams',
+	'https://github.com/AbideWebDesign/Adams-Elementary-School',
 	__FILE__,
-	'Adams'
+	'Adams-Elementary-School'
 );
 
 $myUpdateChecker->setBranch('master'); 
