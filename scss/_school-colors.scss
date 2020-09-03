@@ -4,7 +4,7 @@
 
 //** Global heading color on `<body>`.
 $headings-link-color:				$brand-primary !default;
-
+$text-color: 						#212529;
 //== Links
 //
 //** Global textual link color.
@@ -275,10 +275,15 @@ h2 {
 #full-width-nav {
 	background-color: $brand-secondary;
 	a {
-		color: $text-color;
+		color: white;
 	}
 	.current_page_item:after {
 	    border-top-color: $brand-secondary;
+	}
+	#subpage-nav-mobile {
+		a {
+			color: $brand-secondary;
+		}
 	}
 }
 #tabs-block {
