@@ -265,3 +265,53 @@ h2 {
 		border-bottom: 1px solid $brand-primary;
 	}
 }
+
+//== Full Width Page
+//
+//##
+#full-width-header {
+	background-color: $brand-primary;
+}
+#full-width-nav {
+	background-color: $brand-secondary;
+	a {
+		color: $text-color;
+	}
+	.current_page_item:after {
+	    border-top-color: $brand-secondary;
+	}
+}
+#tabs-block {
+	.tab-header-color {
+		.nav-tabs {
+			a {
+				color: $brand-primary;
+			}
+			>li>a.active,
+			>li>a.active:hover,
+			>li>a.active:focus {
+			    border-bottom: 4px solid $brand-primary;
+			}
+		}
+	}
+	.tab-list-item {
+	    h3 {
+		    color: $brand-primary;
+		}	
+	}
+}
+#cta-block {
+	.gform_footer {
+		.gform_button,
+		.gform_button:hover {
+		    color: $brand-primary;
+		}
+	}
+	h2 {
+		color: $text-color;
+	}
+	.btn {
+		@extend .btn-primary;
+		color: white;
+	}
+}
